@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    font-style: bold;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+i {
+    margin-right: 20px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p {
+    line-height: 45px;
+    margin: 25px 0px;
+    font-weight: 500;
+    font-size: 22px;
+    width: 700px;
+}
+b {
+    font-size: 22px;
+}
+
+
+button {
+    background-color: rgb(57, 105, 143);
+    border: none;
+    padding: 15px 100px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.apricot {
+    margin-left: 100px;
+    height: 1000px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.text-container {
+    margin: 75px 200px 50px 150px;
+}
+
+.gradient {
+    margin-top: 100px;
+    padding: 70px 150px 150px 150px;
+    background: rgb(37, 65, 133);
+    background: -moz-linear-gradient(54deg, rgba(37, 65, 133, 1) 0%, rgba(64, 108, 165, 1) 25%, rgba(108, 179, 216, 1) 50%, rgba(51, 88, 150, 1) 75%, rgba(37, 65, 133, 1) 100%);
+    background: -webkit-linear-gradient(54deg, rgba(37, 65, 133, 1) 0%, rgba(64, 108, 165, 1) 25%, rgba(108, 179, 216, 1) 50%, rgba(51, 88, 150, 1) 75%, rgba(37, 65, 133, 1) 100%);
+    background: linear-gradient(54deg, rgba(37, 65, 133, 1) 0%, rgba(64, 108, 165, 1) 25%, rgba(108, 179, 216, 1) 50%, rgba(51, 88, 150, 1) 75%, rgba(37, 65, 133, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#254185", endColorstr="#254185", GradientType=1);
+}
+
+.print-specs {
+    display: grid;
+    padding: 50px 50px 50px 150px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    grid-gap: 5px;
+    border-radius: 5px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.underline {
+    border-bottom: 2px solid black;
+}
+
+.item p {
+    text-align: right;
+    margin: 0px;
+
+}
+
+.item span {
+    width: 700px;
+    font-size: 22px;
+}
+
+.container {
+    margin: 75px 200px 50px 200px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered button {
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-half,
+.right-half {
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.left-half {
+    display: flex;
+    align-items: center;
+}
+
+.carousel {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.end h1 {
+    font-size: 45px;
+}
+
+.end span {
+    margin-left: 200px;
+}
+
+.card {
+    height: 400px;
+    box-shadow: 0px 8px 10px #888;
+    border-radius: 5px;
+}
+
